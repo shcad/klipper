@@ -10,7 +10,7 @@ BACKGROUND_PRIORITY_CLOCK = 0x7fffffff00000000
 BIT_MAX_TIME=.000004
 RESET_MIN_TIME=.000050
 
-MAX_MCU_SIZE = 500  # Sanity check on LED chain length
+MAX_MCU_SIZE = 600  # Sanity check on LED chain length. Adjusted chain max length to 150 diodes (600 = 4 channels x 150)
 
 class PrinterNeoPixel:
     def __init__(self, config):
